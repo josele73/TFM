@@ -5,3 +5,7 @@ El objetivo de este proyecto es la comparación de las imágenes segmentadas que
 El proyecto tienes tres fases:
 
 ![Ciclo fases](/img/esquema.jpg)
+
+
+#
+![QGIS Alicante](/img/alicante.jpg)
