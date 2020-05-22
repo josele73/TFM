@@ -32,6 +32,7 @@ De esta forma obtenemos el dataset para el proyecto.
 ![TIFF](/img/680667.12_4238075.56_680763.12_4238171.56_tiff.jpg)
 
 /datos/1_Creacion_dataset/shape.rar 
+
 Contiene 40 shapefiles que se han utilizado para obtener las 4000 imágenes RGB y 4000 imágenes segmentadas
 
 #  Red Neuronal
@@ -49,6 +50,7 @@ Características de la red del ejemplo:
 -	Loss = JaccardLoss
 
 /Datos/2_Red_Neuronal/dataset.rar 
+
 Incluye un dataset reducido con 2000 imágenes RGB y 2000 segmentadas para entrenar el modelo.
 
 
@@ -91,13 +93,17 @@ Analizamos los campos para obtener las siguientes incidencias:
 
 -	No Detectada
 -	Nueva Construcción
--	ampliación
+-	Ampliación
 
 Por último, guardamos las incidencias y sus coordenadas UTM en un fichero .csv
 
 /Datos/3_Comparación_Imagenes/ 
+
 Incluye 3 pares de imágenes de ejemplo para su comparación.
 
 **6_Visualizacion_QGIS.ipynb**
 
 Muestra como cargar el archivo csv en QGIS como una capa vectorial y como visualizar los resultados de forma categorizada.
+
+
+## Alumno Jose Luis Fernández Losada --  jfernandezlosada
