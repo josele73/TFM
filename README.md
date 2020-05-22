@@ -29,7 +29,7 @@ Se obtiene un fichero Geotiff de cada shapefile, posteriormente se trocea el Gep
 De esta forma obtenemos el dataset para el proyecto.
 
 
-![TIFF](/img/680667.12_4238075.56_680763.12_4238171.56.tiff)
+![TIFF](/img/680667.12_4238075.56_680763.12_4238171.56_tiff.jpg)
 
 /datos/1_Creacion_dataset/shape.rar Contiene 40 shapefiles que se han utilizado para obtener las 4000 imágenes RGB y 4000 imágenes segmentadas
 
@@ -40,6 +40,13 @@ En esta fase del proyecto, entrenamos y testeamos el modelo de red neuronal
 **3_modelo_vgg19_2_200.ipynb** 
 
 Creamos y entrenamos el modelo Keras, se han utilizado varias backbones y distintas cantidades de epoch. Se obtiene las métricas de la validación y se guarda el modelo. Se muestran algunas imágenes obtenidas del modelo.
+
+Características de la red del ejemplo:
+-	VGG19
+-	Batch = 2
+-	Epoch = 200
+-	Loss = JaccardLoss
+
 
 **4_prediccion_imagenes.ipynb** 
 
