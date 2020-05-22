@@ -13,7 +13,7 @@ Inicialmente se debe trabajar desde el entorno QGIS para extraer porciones de la
 
 ![QGIS Alicante](/img/alicante.jpg)
 
-Se obtiene un shapefile con unas dimensiones de 960 m por 960m. 
+Se adquiere un shapefile con unas dimensiones de 960x960m. 
 
 **1_Obtencion_imagenes_PNOA.ipynb** 
 
