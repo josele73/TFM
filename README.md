@@ -56,10 +56,10 @@ Incluye un dataset reducido con 2000 imágenes RGB y 2000 segmentadas para entre
 
 **4_prediccion_imagenes.ipynb** 
 
-En un modelo similar al anterior, cargamos los pesos guardados del modelo anterior. Ahora puede predecir las imágenes segmentadas desde imágenes RGB. Modificando algunos parámetros se han llegado a nalizar imágenes RGB de 1 km2.
+En un modelo similar al anterior, cargamos los pesos guardados del modelo anterior. Ahora puede predecir las imágenes segmentadas desde imágenes RGB. Modificando algunos parámetros se han llegado a analizar imágenes RGB de 1 km2.
 Se guardan las imágenes analizadas para su posterior comparación.
 
-No se ha podido ingluir un fichero .h5 con los pesos por limitación de espacio de Github
+No se ha podido incluir un fichero .h5 con los pesos por limitación de espacio de Github
 
 
 #  Comparación de imágenes
