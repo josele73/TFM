@@ -8,6 +8,7 @@ El proyecto tienes tres fases:
 
 
 #  Obtención de imágenes PNOA 
+
 Inicialmente se debe trabajar desde el encorno QGIS para extraer porciones de la capa que contiene las de 630.000 construcciones de la provincia de Alicante.
 
 ![QGIS Alicante](/img/alicante.jpg)
@@ -15,6 +16,7 @@ Inicialmente se debe trabajar desde el encorno QGIS para extraer porciones de la
 Se obtiene un shapefile con unas dimensiones de 960 m por 960m. 
 
 **1_Obtencion_imagenes_PNOA.ipynb** 
+
 Obtiene las coordenadas del shapefile y extrae del servicio WMS del PNOA un array de (10,10)
 de imagenes RGB de 384*384 pixeles.
 Teniendo en cuenta que la resolución del PNOA en la provincia de Alicante es 25 cm/píxel, cada imagen mide 96*96 metros.
@@ -36,9 +38,11 @@ De esta forma obtenemos el dataset para el proyecto.
 En esta fase del proyecto, entrenamos y testeamos el modelo de red neuronal 
 
 **3_modelo_vgg19_2_200.ipynb** 
+
 Creamos y entrenamos el modelo Keras, se han utilizado varias backbones y distintas cantidades de epoch. Se obtiene las métricas de la validación y se guarda el modelo. Se muestran algunas imágenes obtenidas del modelo.
 
 **4_prediccion_imagenes.ipynb** 
-Creamos el modelo y cargamos los pesos guardados del modelo anterior. Ahora puede predecir las imágenes segmentadas desde imágenes RGB. Modificando algunos parámetros se han llegado a nalizar imágenes RGB de 1 km2.
+
+EN un modelo similar al anterior, cargamos los pesos guardados del modelo anterior. Ahora puede predecir las imágenes segmentadas desde imágenes RGB. Modificando algunos parámetros se han llegado a nalizar imágenes RGB de 1 km2.
 Se guardan las imágenes analizadas para su posterior comparación.
 
