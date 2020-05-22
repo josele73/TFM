@@ -22,7 +22,7 @@ Teniendo en cuenta que la resolución del PNOA en la provincia de Alicante es 25
 
 **2_Creacion_imagenes_segmentadas.ipynb** 
 
-Se obtiene un fichero Geotiff de cada shapefile, posteriormente se trocea el Geptiff para obtener otro de dimensiones 384*384 que coinciden en nombre con las imágenes RGB.
+Se obtiene un fichero Geotiff de cada shapefile, posteriormente se trocea el Geptiff para obtener otro de dimensiones (384,384) que coinciden en nombre con las imágenes RGB.
 De esta forma obtenemos el dataset para el proyecto.
 
 
