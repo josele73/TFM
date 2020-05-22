@@ -13,7 +13,20 @@ Inicialmente se debe trabajar desde el encorno QGIS para extraer porciones de la
 ![QGIS Alicante](/img/alicante.jpg)
 
 Se obtiene un shapefile con unas dimensiones de 960 m por 960m. 
-El notebook 1_Obtencion_imagenes_PNOA.ipynb obtiene las coordenadas del shapefile y extrae del servicio WMS del PNOA un array de 10*10 imágenes RGB con una dimensiones de 384*384 pixeles.
+
+**1_Obtencion_imagenes_PNOA.ipynb** obtiene las coordenadas del shapefile y extrae del servicio WMS del PNOA un array de (10,10)
+de imagenes RGB de 384*384 pixeles.
 Teniendo en cuenta que la resolución del PNOA en la provincia de Alicante es 25 cm/píxel, cada imagen mide 96*96 metros.
 
 ![RGB](/img/680667.12_4238075.56_680763.12_4238171.56.jpg)
+
+**2_Creacion_imagenes_segmentadas.ipynb** 
+
+Se obtiene un fichero Geotiff de cada shapefile, posteriormente se trocea el Geptiff para obtener otro de dimensiones 384*384 que coinciden en nombre con las imágenes RGB.
+De esta forma obtenemos el dataset para el proyecto.
+
+
+![TIFF](/img/680667.12_4238075.56_680763.12_4238171.56.tiff)
+
+/datos/1_Creacion_dataset/shape.rar Contiene 40 shapefiles que se han utilizado para obtener las 4000 imágenes RGB y 4000 imágenes segmentadas
+
