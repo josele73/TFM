@@ -106,4 +106,4 @@ Incluye 3 pares de imágenes de ejemplo para su comparación.
 Muestra como cargar el archivo csv en QGIS como una capa vectorial y como visualizar los resultados de forma categorizada.
 
 
-## Alumno Jose Luis Fernández Losada --  jfernandezlosada
+##  Jose Luis Fernández Losada 
