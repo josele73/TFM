@@ -1,4 +1,4 @@
-# TFM -- Control de cambios en imágenes aéreas segmentadas
+# Control de cambios en imágenes aéreas segmentadas
 
 El objetivo de este proyecto es el control de cambios en imágenes segmentadas obtenidas a partir del análisis de las construcciones que contienen las imágenes áreas del PNOA mediante redes neuronales con imágenes de años anteriores con el fin de localizar cambios. Estos cambios pueden ser:  Nuevas construcciones, construcciones que ya no existan y grandes ampliaciones.
 
